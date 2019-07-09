@@ -3,7 +3,7 @@ entries:
   sparkoperator:
   - apiVersion: v1
     appVersion: v2.4.0-v1beta1-0.8.2
-    created: 2019-06-20T12:45:47.440301-07:00
+    created: 2019-07-09T11:38:01.187826-07:00
     description: A Helm chart for Spark on Kubernetes operator
     digest: ce34deb9fd47da6a8c03bcbc83a8b69988089214e8375a18ef20d374de4c0346
     home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
@@ -20,9 +20,9 @@ entries:
   vault:
   - apiVersion: v1
     appVersion: 1.1.2
-    created: 2019-06-20T12:45:47.440842-07:00
+    created: 2019-07-09T11:38:01.188637-07:00
     description: A Helm chart for Vault, a tool for managing secrets
-    digest: 5fe6ff9aa2c35e2e9184014fa86134c49d76b32f560a85794215728f31dccf28
+    digest: e54d701eecdf065385601d3ef867601f7b6495c3225e3a5313747be8be68f2ab
     home: https://www.vaultproject.io/
     icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
     maintainers:
@@ -35,4 +35,4 @@ entries:
     urls:
     - vault/vault-0.18.9.tgz
     version: 0.18.9
-generated: 2019-06-20T12:45:47.439613-07:00
+generated: 2019-07-09T11:38:01.187153-07:00
