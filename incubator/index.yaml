@@ -3,7 +3,26 @@ entries:
   vault:
   - apiVersion: v1
     appVersion: 1.1.2
-    created: 2019-07-12T14:39:52.540488-07:00
+    created: 2019-07-16T12:56:39.724306-07:00
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: f35ca53e36d8e2af19bd6837ef2422c8fd684a67005070dace6eea096a961a59
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: jbialy@gmail.com
+      name: jbialy
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - vault/vault-0.18.14.tgz
+    version: 0.18.14
+  - apiVersion: v1
+    appVersion: 1.1.2
+    created: 2019-07-16T12:56:39.725206-07:00
     description: A Helm chart for Vault, a tool for managing secrets
     digest: e54d701eecdf065385601d3ef867601f7b6495c3225e3a5313747be8be68f2ab
     home: https://www.vaultproject.io/
@@ -18,4 +37,4 @@ entries:
     urls:
     - vault/vault-0.18.9.tgz
     version: 0.18.9
-generated: 2019-07-12T14:39:52.53798-07:00
+generated: 2019-07-16T12:56:39.72293-07:00
