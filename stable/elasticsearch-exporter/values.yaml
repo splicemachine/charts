@@ -10,6 +10,7 @@ image:
   repository: justwatch/elasticsearch_exporter
   tag: 1.0.2
   pullPolicy: IfNotPresent
+  pullSecret: ""
 
 ## Set enabled to false if you don't want securityContext
 ## in your Deployment.
@@ -42,6 +43,13 @@ service:
     name: http
   annotations: {}
   labels: {}
+
+## Extra environment variables that will be passed into the exporter pod
+## example:
+## env:
+##   KEY_1: value1
+##   KEY_2: value2
+# env:
 
 es:
   ## Address (host and port) of the Elasticsearch node we should connect to.
